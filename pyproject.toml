@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "timelapse"
+version = "0.1.0"
+description = "Create a timelapse from a RTSP video stream."
+authors = ["Martin Komon <martin@mkomon.cz>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+structlog = "^23.1.0"
+click = "^8.1.7"
+opencv-python-headless = "^4.8.0.76"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
