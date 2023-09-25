@@ -14,7 +14,7 @@ volumes:
 
 services:
   server:
-    image: docker.io/mkomon/timelapse:latest
+    image: ghcr.io/mkomon/timelapse:latest
     container_name: timelapse
     environment:
       - TIMELAPSE_DATA_DIR=/data
